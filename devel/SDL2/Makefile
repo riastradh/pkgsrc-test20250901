@@ -11,6 +11,10 @@ HOMEPAGE=	https://www.libsdl.org/
 COMMENT=	Simple DirectMedia Layer - cross-platform multimedia library
 LICENSE=	zlib
 
+# For GNU sort. This package requires -V option of GNU sort.
+TOOL_DEPENDS+=		coreutils-[0-9]*:../../sysutils/coreutils
+TOOLS_PLATFORM.sort=	# empty
+
 USE_LANGUAGES=	c c++
 USE_LIBTOOL=	yes
 USE_TOOLS+=	gmake pkg-config
