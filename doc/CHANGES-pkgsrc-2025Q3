@@ -32,3 +32,7 @@ devel/libatomic: sparc build fix
 
 Pullup ticket #7015 - requested by riastradh
 devel/SDL2: build fix
+
+Pullup ticket #7013 - requested by riastradh
+sysutils/py-borgbackup: bugfix
+
