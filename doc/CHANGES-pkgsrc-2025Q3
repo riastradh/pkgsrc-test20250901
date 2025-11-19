@@ -27,3 +27,6 @@ databases/mysql80-server: Build fix
 Pullup ticket #7010 - requested by maya
 fonts/fontconfig: Build fix
 
+Pullup ticket #7014 - requested by riastradh
+devel/libatomic: sparc build fix
+
