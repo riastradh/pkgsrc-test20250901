@@ -30,3 +30,5 @@ fonts/fontconfig: Build fix
 Pullup ticket #7014 - requested by riastradh
 devel/libatomic: sparc build fix
 
+Pullup ticket #7015 - requested by riastradh
+devel/SDL2: build fix
